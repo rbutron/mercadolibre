@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "app.env",
+      "type": "java.lang.String",
+      "description": "it defines the environment."
+    }
+  ] }

@@ -1,0 +1,6 @@
+version: '2'
+services:
+  mutant-service:
+    build: .
+    ports:
+      - "9730:9730"
