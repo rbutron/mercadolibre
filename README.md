@@ -55,12 +55,13 @@ No debemos precuparnos por la configuracion de Mongo pues este esta Clusteado en
 uno para test de las pruebas unitarias y otro para productivo.
 
 1. Clonamos.
-2. Ejecutamos```docker-compose up --build``` o ```docker-compose up```.
+2. Ejecutamos```docker-compose up --build``` o ```docker-compose up``` (si probamos local).
 3. Abrimos postman y importamos esta collections https://www.getpostman.com/collections/be06f584acb84333e37b
 
 ### API Url
 
 Abrimos nuestro navegador y nos ubicamos en la URL y colocamos 
+- POST http://3.142.33.19:9730/mutant
 - POST http://localhost:9730/mutant
 
 Request body (caso ADN mutante):
@@ -89,6 +90,7 @@ Response:
 #### Estadisticas
 
 Request:
+- GET http://3.142.33.19:9730/mutant/stats
 - GET http://localhost:9730/mutant/stats
 
 Response: 200 (application/json)
