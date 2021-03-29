@@ -56,6 +56,7 @@ uno para test de las pruebas unitarias y otro para productivo.
 
 1. Clonamos.
 2. Ejecutamos```docker-compose up --build``` o ```docker-compose up```.
+3. Abrimos postman y importamos esta collections https://www.getpostman.com/collections/be06f584acb84333e37b
 
 ### API Url
 
