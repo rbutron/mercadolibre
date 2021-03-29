@@ -7,12 +7,8 @@
     - [Arquitectura](#arquitectura)
 - [Setup](#setup)
     - [Instrucciones](#instrucciones)
-    - [API Url](#api)
-    - [Servicios](#servicios)
-        - [Es mutante](#es-mutante)
-        - [Estadisticas](#estadisticas)
-- [Test](#test)
-    - [Cobertura](#cobertura)
+    - [API Url](#api-url)
+- [Cobertura](#cobertura)
 
 ## Ejercicio
 
