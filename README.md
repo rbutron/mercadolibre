@@ -56,8 +56,7 @@ uno para test de las pruebas unitarias y otro para productivo.
 
 ### API Url
 
-Abrimos nuestro navegador y nos ubicamos en la URL y colocamos 
-- POST http://3.142.33.19:9730/mutant
+Abrimos nuestro navegador y nos ubicamos en la URL y colocamos
 - POST http://localhost:9730/mutant
 
 Request body (caso ADN mutante):
@@ -86,7 +85,6 @@ Response:
 #### Estadisticas
 
 Request:
-- GET http://3.142.33.19:9730/mutant/stats
 - GET http://localhost:9730/mutant/stats
 
 Response: 200 (application/json)
